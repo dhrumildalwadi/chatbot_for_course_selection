@@ -1,0 +1,128 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "courses",
+         "patterns": ["I want to know more about the courses offered.", "What are the courses offered here?", "What are the courses offered", "Offered courses", "courses offered", "courses available", "what are the branches"],
+         "responses": ["In CHARUSAT, we offer following courses in B.Tech: Computer, IT, Electronics and Communication, Electrical, Civil, Mechanical. I hope it helps you."],
+         "context_set": ""
+        },
+        {"tag": "admission_dates",
+         "patterns": ["what is the date for admission.?", "When is the admission?", "When will the admission process start?", "Which date the admissions will start?" ],
+         "responses": ["We are yet to confirm the date. Please look at our website to be updated"],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["I want the phone number for the hod of IT department.", "I want the phone number for the hod of computer department.", "I want the phone number for the hod of EC department.", "I want the phone number for the hod of electrical department.", "I want the phone number for the hod of civil department.", "I want the phone number for the hod of Mechanical department.", "where can I find contacts?", "I want the contact of the hod."],
+         "responses": ["You may find the contact info on our contacts page. Here is the link!"],
+         "context_set": ""
+        },
+        {"tag": "session_commencement",
+         "patterns": ["When will the new term start?", "When will the new session start?", "What is the commencement date for the new session", "When will the lectures start?", "When will the academic term start?", "When will the classes begin?", "When will the classes of newcomers start?", "From when do the new students have to come?"],
+         "responses": ["Exact date has not been decided yet, but the new academic term will start in July."],
+         "context_set": ""
+        },
+        {"tag": "placement",
+         "patterns": ["Which companies come for placement?", "I would like to inquire about the placement", "I would like to inquire about the campus placement", "What are the opportunities for the placement?", "What are the placement packages?", "How are the placement offered to the student?"],
+         "responses": ["Placement opportunities for the students are excellent!. We have our own dedicated placement cell which helps and trains the students for the interview. Many well-known companies come for the campus placement as recruiters. You may find more infromation about our placement in our webpage. Here is the link!"],
+         "context_set": ""
+        },
+        {"tag": "cutoff",
+         "patterns": ["what is the cutoff for the admission?", "what is the cutoff for the admission in computer engineering?", "what is the cutoff for the admission in IT?", "what is the cutoff for the admission in ec?", "what is the cutoff for the admission in electrical engineering?", "what is the cutoff for the admission in civil engineering?", "what is the cutoff for the admission in mechanical engineering?"],
+         "responses": ["We are not sure as each year the criterias are different. Please refer to the previous cutoffs to get an idea."],
+         "context_set": ""
+        },
+        {"tag": "confusion",
+         "patterns": ["i am confused about which branch to select", "I am confused which branch should I take.", "I do not know which branch should I take.", "I want to know which branch is for me.", "I don't know which branch is for me."],
+         "responses": ["Ok. Then tell me about what you are interested in. For eg: 'You like Computers', 'The machines is your thing', etc"],
+         "context_set": ""
+        },
+        {"tag": "more_confusion",
+         "patterns": ["I do not know in what I am interested in.", "I do not know if I want to do engineering", "I cannot decide if I want to do engineering", "I am confused about engineering."],
+         "responses": ["Well, it is not necessary that engineering is the only career option for you. There are many more lines of work to explore. One must not regret of what they choose to build their career upon, after all, it is your future. You must think over again as you still have time."],
+         "context_set": ""
+        },
+        {"tag": "engineering_confusion",
+         "patterns": ["I do not know about engineering.", "What is engineering?", "What does an Engineer do?"],
+         "responses": ["It is a branch of science and technology which deals with thinking, designing and building logical solutions. Engineers apply the principles of science and mathematics to develop economical solutions to technical problems."],
+         "context_set": ""
+        },
+        {"tag": "computer",
+         "patterns": ["I like computers.", "I love to code", "I like coding", "I am interested in web development", "I am interested in machine learning", "I am interested in artificial intelligence", "I want to become android developer", "I like to work with big data", "I am interested in android development", "I am interested in IOS development", "I want to know more about processors and compilers"],
+         "responses": ["I am getting what you are interested in. You may be interested to be in Computer Science or IT department of engineering. If you want to know more, please type 'I want to know more about computer science' or 'I want to know more about IT'"],
+         "context_set": ""
+        },
+        {"tag": "computer/IT_engineer",
+         "patterns": ["Who is a computer engineer?", "Who is an IT engineer?"],
+         "responses": ["Computer engineers or IT engineers focus on innovation—making computing systems safer, faster and more powerful. They develop, test, install, configure and troubleshoot computer hardware and software."],
+         "context_set": ""
+        },
+        {"tag": "computer_sciene_details",
+         "patterns": ["What is computer engineering?", "What is IT engineering?", "I want to know more about computer science.", "I want to know more about computer engineering", "I want to know more about computer science engineering", "I want to know more about IT", "I want to know more about IT engineering"],
+         "responses": ["Computer Engineering or IT grouped under the name Computer Science. The main goal is to configure the hardware and the software to bring a modern solution to a problem. It has wide variety of fields to explore in it along with many opportunities. If you are interested then I will sign you up for our newsletter. Are you interested?"],
+         "context_set": ""
+        },
+        {"tag": "ec_electrical",
+         "patterns": ["I like interfacing", "I am interested in circuits", "I am interested in configuring different systems", "I like networking", "I am interested in networking", "I am interested in wirelesss networks", "I am interested in robotics", "I am interested in embedded systems", "I want to learn about microprocessors", "I want to learn about microcontrollers"],
+         "responses": ["I am getting what you are interested in. You may be interested to be in Electrical or EC department of engineering. If you want to know more, please type 'I want to know more about EC' or 'I want to know more about Electrical engineering'" ],
+         "context_set": ""
+        },
+        {"tag": "ec_electrical_details",
+         "patterns": ["What is electrical engineering?", "What is Ec Engineering?", "What is electronics and communication engineering", "I want to know more about EC", "I want to know more about Electrical engineering"],
+         "responses": ["Well it is a wide field to explore. A good thing about it is the freedom, as you can work on both hardware and software. To put it simply, electrical engineers deal with supply and the flow of power and electronics engineer work on making different electrical devices. If you are interested then I will sign you up for our newsletter. Are you interested?"],
+         "context_set": ""
+        },
+        {"tag": "electrical_engineer",
+         "patterns": ["Who is an electrical engineer?"],
+         "responses": ["An electrical engineer is someone who designs and develops new electrical systems, solves problems and tests equipment."],
+         "context_set": ""
+        },
+        {"tag": "EC_engineer",
+         "patterns": ["Who is an EC engineer?", "Who is an electronics engineer?"],
+         "responses": ["Electronic engineering (also called electronics and communications engineering) is an electrical engineering discipline which utilizes nonlinear and active electrical components such as semiconductor devices, especially transistors, diodes and integrated circuits, to design electronic circuits, devices, VLSI devices and their systems."],
+         "context_set": "" 
+        },
+        {"tag": "mechanical",
+         "patterns": ["I like machines", "I am interested in aerophysics", "I am interested in simulation", "I want to learn about simulation", "I am interested in ", "I am interested in manufacturing", "I am interested in machine designing", "I am interested in designing", "I want to learn more about system controls and dynamics"],
+         "responses": ["I am getting what you are interested in. You may be interested to be in Mechanical department of engineering which has many more areas of study. If you want to know more, please type 'I want to know more about Mechanical engineering engineering'"],
+         "context_set": ""
+        },
+        {"tag": "mechanical_engineer",
+         "patterns": ["Who is a mechanical engineer?"],
+         "responses": ["Mechanical engineers design power-producing machines, such as electric generators, internal combustion engines, and steam and gas turbines, as well as power-using machines, such as refrigeration and air-conditioning systems."],
+         "context_set": "" 
+        },
+        {"tag": "mechanical_details",
+         "patterns": ["What is mechanical engineering?", "I want to know more about mechanical engineering"],
+         "responses": ["A career in Mechanical Engineering allows you to build a bright future for you and for the world. It is a creative profession, with an emphasis on designing, simulating and improving the world we live in. There are many more things we can talk about Mechanical Engineering, if you are interested then I will sign you up for our newsletter. Are you interested?"],
+         "context_set": ""
+        },
+        {"tag": "civil",
+         "patterns": ["I want to be a builder", "My father works in construction business", "I want to learn about construction management", "I want to learn about construction", "I want to know more about building materials", "I want to know about designing structures", "I want to know about planning", "I want to build buildings"],
+         "responses": ["I am getting what you are interested in. You may be interested to be in Civil department of engineering which has many more areas of study. If you want to know more, please type 'I want to know more about Civil engineering engineering'"],
+         "context_set": ""
+        },
+        {"tag": "civil_engineer",
+         "patterns": ["Who is a civil engineer?"],
+         "responses": ["Civil engineers conceive, design, build, supervise, operate, construct and maintain infrastructure projects and systems in the public and private sector, including roads, buildings, airports, tunnels, dams, bridges, and systems for water supply and sewage treatment."],
+         "context_set": "" 
+        },
+        {"tag": "civil_details",
+         "patterns": ["What is civil engineering?", "I want to know more about Civil engineering"],
+         "responses": ["Civil Engineers deal with all the infrasctuctures that we live in. Their line of work require the knowledge of construction industries. If you are interested then I will sign you up for our newsletter. Are you interested?"],
+         "context_set": ""
+        },
+        {"tag": "newsletter_yes",
+         "patterns": ["yes i would like to", "yes please", "yes please do", "yes"],
+         "responses": ["Ok then, please register yourself in the following link. Hope I was helpful. ---(Type 'quit' to terminate the program)"],
+         "context_set": ""
+        },
+        {"tag": "newsletter_no",
+         "patterns": ["No", "No thank you", "No please", "no need"],
+         "responses": ["Ok then, hope I was helpful. ---(Type 'quit' to terminate the program)"],
+         "context_set": ""
+        }
+   ]
+}
